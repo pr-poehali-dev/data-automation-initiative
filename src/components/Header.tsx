@@ -11,7 +11,7 @@ export default function Header({ className }: HeaderProps) {
         </a>
         <nav className="hidden md:flex gap-10">
           <a
-            href="#catalog"
+            href="#full-catalog"
             className="text-white/80 hover:text-gold transition-colors duration-300 uppercase text-xs tracking-[0.2em]"
           >
             Каталог
