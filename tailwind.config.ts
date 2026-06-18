@@ -20,8 +20,15 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Montserrat', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+				serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
 			},
 			colors: {
+				gold: {
+					DEFAULT: '#C8A86B',
+					light: '#E4CA93',
+					dark: '#9A7E48',
+				},
+				graphite: '#0A0A0A',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
